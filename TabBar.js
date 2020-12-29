@@ -203,25 +203,26 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         marginLeft: 15,
         marginRight: 15,
-        marginBottom: 10,
+        marginBottom: 20,
         zIndex: 1,
         position: 'absolute',
-        bottom: 5,
+        bottom: 8,
+        justifyContent: 'center'
     },
     navItem: {
         flex: 1,
-        paddingTop: 6,
-        paddingBottom: 6,
         alignItems: 'center',
         zIndex: 0,
+        justifyContent: 'center'
     },
     navImage: {
-        width: 45,
-        height: 45,
+        width: 30,
+        height: 30,
+        justifyContent: 'center',
+        alignSelf: 'center',
+        resizeMode: 'center'
     },
     circle: {
-        bottom: 18,
+        bottom: 20,
     },
 });
-
-
